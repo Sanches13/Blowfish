@@ -20,11 +20,11 @@ Program adds 1 byte to the beginning of file - a number of appended zero bytes.
 
 ### An exapmle of program working
 
-Original file data:
-
 You can generate a random key like this
 
 ![key_creating](images/key_creating.png)
+
+Original file data:
 
 ![orig_data](images/orig_data.png)
 
