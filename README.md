@@ -36,10 +36,12 @@ Cipher data:
 
 ![cipher_data](images/cipher_data.png)
 
-Highlighted in blue: 32 bytes of Initialisation Vector (IV);
+Highlighted in blue: number of appended zero bytes (block padding up to 64 bits);
 
-Highlighted in yellow: number of appended zero bytes (block padding up to 64 bits);
+Highlighted in red: cipher data;
 
-Highlighted in red: cipher data.
+Highlighted in purple: encrypted end-of-file character;
+
+Highlighted in green: encrypted appended zeros.
 
 
